@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2{
+    color: salmon;
+}
+
+label{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.input{
+    float: right;
+    width: 100%;
+}
+
+#registration{
+    border: 2px solid black;
+    padding: 50px;
+    text-align: center;
+    margin: 50px 200px;
+    background-color: antiquewhite;
+}
+
+.form_field{
+    margin: 30px;
+    text-align: left;
+}
+
+.register_btn{
+    text-align: center;
+    padding: 8px;
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: palegreen;
+    cursor: pointer;
+}
+
+#login{
+    border: 2px solid black;
+    padding: 50px;
+    text-align: center;
+    margin: 50px 200px;
+    background-color: floralwhite;
+}
+
+.login_btn{
+    text-align: center;
+    padding: 8px;
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: palegreen;
+    cursor: pointer;
+}
+
+.error_msg{
+    font-weight: bolder;
+    color: red;
+}
